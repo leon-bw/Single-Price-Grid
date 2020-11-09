@@ -11,7 +11,7 @@ body {
     background-color: var(--Light-Grey);
     font-family: 'Karla';
     font-size: 0.9375rem;
-    margin: 5% 10%;
+    margin: 5% 20%;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
