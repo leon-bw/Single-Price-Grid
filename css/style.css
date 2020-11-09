@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --Cyan: #2AB2AF;
+    --Lime-Green: #C0DF34;
+    --Light-Grey: #E5EFF5;
+    --Blueish-Grey: #98A6BD;
+}
+
+body {
+    background-color: var(--Light-Grey);
+    font-family: 'Karla';
+    font-size: 0.9375rem;
+    margin: 5% 10%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#top {
+    background-color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+#bottom {
+    background-color: var(--Cyan);
+    border-radius: 0 0 10px 10px;
+}
+
+.container-fluid-lg, .btn {
+    padding: 5%;
+}
+
+/* ----- community section ----- */
+
+.title {
+    color: var(--Cyan);
+    font-weight: 700;
+}
+
+.heading {
+    color: var(--Lime-Green);
+}
+
+.heading-text {
+    color: var(--Blueish-Grey);
+    line-height: 2;
+}
+/* ----- Subscription section ----- */
+
+.sub-heading, #price {
+    color: white;
+}
+
+#price {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-right: 3%;
+}
+
+.sub-text {
+    color: var(--Light-Grey);
+}
+
+/* ----- button ----- */
+
+.btn {
+    margin: 10% 0;
+    background-color: var(--Lime-Green);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover, .btn:hover:focus, .btn:focus {
+    background-color: #aac72b;
+    border-color: #aac72b;
+}
+
+/* ----- Why section ----- */
+
+ul {
+    list-style-type: none;
+    color: var(--Light-Grey);
+}
+
+#why {
+    padding: 0 40px;
+    margin-bottom: 5%;
+}
+
+/* ----- Media Queries ----- */
+@media only screen and (min-width: 320px) and (max-width: 812px) {
+    .container-fluid-lg {
+        padding: 8%;
+    }
+    ul, #why {
+        padding:0;
+    }
+}
