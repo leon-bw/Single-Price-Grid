@@ -100,15 +100,16 @@ ul {
 
 .btn {
     background-color: var(--Lime-Green);
-    border-radius: 0.313rem;
     display: inline-block;
-    border: none;
     height: 3rem;
     width: 100%;
+    border-radius: 0.313rem;
+    border: none;
     box-shadow: var(--Shadow);
     margin-top: 0.625rem; 
     color: var(--White);
     font-weight: 700;
+    font-size: 1rem;
 } 
 
 .btn:hover {
