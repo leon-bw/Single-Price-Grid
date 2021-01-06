@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 :root {
+
     /* ----- Colours ----- */
     --Cyan: #2AB2AF;
     --Cyan-2: #4ABEBD;
@@ -11,15 +12,6 @@
 
     /* ----- Shadow ----- */
     --Shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-}
-
-body {
-    background-color: var(--Light-Grey);
-    font-family: 'Karla';
-    font-size: 0.9375rem;
-    margin: 5% 20%;
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
 }
 
 * {
