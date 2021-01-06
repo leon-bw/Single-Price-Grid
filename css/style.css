@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
 :root {
-
     /* ----- Colours ----- */
     --Cyan: #2AB2AF;
     --Cyan-2: #4ABEBD;
@@ -149,7 +148,7 @@ ul {
 
     .card {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
 
     .left {
@@ -158,6 +157,17 @@ ul {
 
     .right {
         border-radius: 0 0 0.313rem 0.313rem;
+    }
+    
+    .container {
+        margin: 10% auto;
+    }
+
+    .attribution {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 } 
