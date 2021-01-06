@@ -138,6 +138,7 @@ ul {
 .attribution {
     display: flex;
     justify-content: center;
+    font-size: 0.625rem;
 }
 
 .attribution a {
@@ -167,7 +168,6 @@ ul {
     .attribution {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
