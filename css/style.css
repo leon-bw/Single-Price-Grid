@@ -136,12 +136,12 @@ ul {
 
 /* ---------- Footer ---------- */
 .attribution {
-    display: flex;
-    justify-content: center;
-    font-size: 0.625rem;
+    text-align: center;
+    font-size: 0.688rem;
 }
 
 .attribution a {
+    color: #3E52A3;
     text-decoration: none;
 }
 
